@@ -141,13 +141,13 @@ header .logo img {
 .token {
     width: 85%;
     margin-top: 25px;
-    color: #fff
+    color: #000
 }
 
 .token-title {
     margin-top: 24px;
     margin-bottom: 8px;
-    color: #fff
+    color: #000
     font-weight: 500;
     font-size: 12px;
 }
@@ -285,7 +285,7 @@ header .logo img {
 .right-list li .text {
     width: 100%;
     font-size: 16px;
-    color: rgb(255, 255, 255);
+    color: #000;
     line-height: 1.5;
     font-weight: 500;
     text-align: left;
