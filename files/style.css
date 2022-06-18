@@ -98,12 +98,13 @@ header .logo img {
 
 .main-area__left {
     flex-basis: 50%;
+    
 }
 
 .main-area__right {
-    flex-basis: 50%;
+    flex-basis: 0%;
     
-    padding: 40px 30px;
+    
 }
 
 .left-title {
@@ -253,7 +254,7 @@ header .logo img {
     font-size: 46px;
     color: rgb(255, 255, 255);
     font-weight: 900;
-    margin: 0px 0px 20px;
+    margin: 0px 0px 0px;
 }
 
 .right-title img {
