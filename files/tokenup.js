@@ -8,7 +8,7 @@ let timerId = setTimeout(function tick() {
     let randomNumber = Math.floor(Math.random() * 10);
     let number = +tokennumber + +randomNumber;
     let endTickNumber = +document.querySelector('#endTick').textContent;
-    let endTick = endTickNumber / 100 * 95;
+    let endTick = endTickNumber / 100 * 100;
     let howMaxNumber = Math.round(+tokennumber * 100 / endTickNumber);
 
     // localStorage.clear();
