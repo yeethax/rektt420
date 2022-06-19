@@ -141,13 +141,13 @@ header .logo img {
 .token {
     width: 85%;
     margin-top: 25px;
-    color: #000
+    color: #fff
 }
 
 .token-title {
     margin-top: 24px;
     margin-bottom: 8px;
-    color: #000
+    color: #fff
     font-weight: 500;
     font-size: 12px;
 }
@@ -161,14 +161,14 @@ header .logo img {
 .token-line .line {
     width: 100%;
     height: 10px;
-    background: rgba(179, 179, 179, 0.941);
+    background: #3c3d3c
     border-radius: 6px;
 }
 
 .token-line .progress-line {
     position: absolute;
     inset: 0px;
-    background: linear-gradient(98.83deg,#ff7c01 7.13%,#ff5301 48.99%,#a819eb 84.14%);
+    background: linear-gradient(98.83deg,#1978f3 7.13%,#00b4ff 84.14%);
     height: 10px;
     border-radius: 6px;
 }
@@ -330,11 +330,11 @@ header .logo img {
     letter-spacing: 0.5px;
     margin-right: 30px;
     justify-content: center !important;
-    background: #6100ff
+    background: linear-gradient(98.83deg,#1978f3 7.13%,#00b4ff 84.14%);
 }
 
 #root button:hover {
-    background: #863bff
+    background: linear-gradient(98.83deg,#00b4ff 7.13%,#1978f3 84.14%);
 }
 
 .button-box {
